@@ -50,5 +50,5 @@ class TestStringOperations(unittest.TestCase):
         result = self.str_ops.get_length("")
         self.assertEqual(result, 0)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
