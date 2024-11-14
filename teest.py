@@ -5,7 +5,7 @@ class TestStringOperations(unittest.TestCase):
 
     def setUp(self):
         # This method is run before each test; useful for setup code.
-        self.str_ops = Sring_operation()
+        self.str_ops = StringOperations()
 
     def test_concatenate(self):
         # Test string concatenation
